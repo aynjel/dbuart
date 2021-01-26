@@ -1,0 +1,185 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+/* Feature Section */
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.f1{
+    color: #eb6f7d;
+}
+.f1:hover{
+    color: #ff4c68;
+}
+/* Testimonials */
+.carousel-item{
+    height: 28rem;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item h2{
+    color: rgb(230, 230, 230);
+    line-height: 1.5;
+}
+.carousel-item p{
+    color: aliceblue;
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+}
+.container h2{
+    font-size: 40px;
+}
+.por{
+    margin-top: 3%;
+}
+.por .csl-img{
+    position: relative;
+    top: 3%;
+    width: 12%;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.por em{
+    margin-left: 2.5%;
+}
+.car-logo{
+    padding: 0 15%;
+}
+.logo-car{
+    text-align: center;
+    padding: 1%;
+}
+.page-title{
+	padding-top: 20px;
+	color: #5a5a5a;
+}
+#pricing{
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+.price{
+	background: #ec4646;
+	color: #fff;
+	border-radius: 10px;
+	margin: 30px 0 0 0;
+	padding: 20px 0 20px 0;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.price h5{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.price h1{
+	text-align: center;
+}
+
+.price ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 50px 0;
+}
+
+.price li{
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+}
+
+.price:hover{
+	padding-top: 40px;
+}
+
+.table-col{
+	padding: 0;
+	margin: 0;
+}
+
+.featured{
+	background: #fff;
+	color: #ec4646;
+	margin: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.featured ul{
+	padding: 0 0 120px 0;
+}
+
+.btn.order-btn{
+    background-color: transparent;
+	color: #fff;
+	width: 50%;
+	border-radius: 0;
+	border: 1px solid #fff;
+}
+.btn.order-btn:hover{
+    color: rgb(7, 6, 4);
+}
+.order-btn-featured{
+	color: #ec4646;
+	width: 50%;
+	border-radius: 0;
+	border: 1px solid #f90D53;
+}
+.order-btn-featured:hover{
+    color: rgb(7, 6, 4);
+}
